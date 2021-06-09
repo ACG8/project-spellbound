@@ -1,0 +1,2 @@
+class_name AgentController
+extends Node2D
