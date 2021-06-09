@@ -1,9 +1,10 @@
-[gd_scene load_steps=6 format=2]
+[gd_scene load_steps=7 format=2]
 
 [ext_resource path="res://networking/OptionsList.gd" type="Script" id=1]
 [ext_resource path="res://agents/client/PlayerController.tscn" type="PackedScene" id=2]
 [ext_resource path="res://Arena.gd" type="Script" id=3]
 [ext_resource path="res://agents/client/ClientAgent.tscn" type="PackedScene" id=4]
+[ext_resource path="res://agents/client/PeerController.tscn" type="PackedScene" id=5]
 [ext_resource path="res://networking/Lobby.gd" type="Script" id=6]
 
 [node name="Root" type="Node"]
@@ -62,3 +63,4 @@ align = 1
 script = ExtResource( 3 )
 packed_client_agent = ExtResource( 4 )
 packed_player_controller = ExtResource( 2 )
+packed_peer_controller = ExtResource( 5 )
